@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(229, 231, 234);
+}
+#check:hover{
+    font-size: 60px; /* Adjust font size as needed */
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+#check{
+    padding-top: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    position: static;
+}
+p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.navi{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+.head{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.content p{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+#proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+}
+.project{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    text-transform: capitalize;
+    margin: 0px 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.project a{
+    color:  #0eb7ff;
+}
+.project>h2{
+    padding: 10px 0;
+    color: white;
+    background-image: url("p1.jpg");
+    background-size: cover;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.project>p{
+    padding: 10px 2px 50px 2px;
+    font-size: 17px;
+}
+#forms{
+    display: flex;
+    text-align: center;
+    box-shadow: 10px 10px lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 60px;
+}
+#forms label{
+    font-family: "Lexend", sans-serif;
+    display: block;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+}
+#forms input{
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;    
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 2px;
+}
+#forms textarea{
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+#forms button{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(18, 115, 233);
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 19px;
+    color: white;
+    text-transform: capitalize;
+}
+#forms button:hover{
+    background-color: rgb(65, 141, 235);
+    cursor: pointer;
+}
+.social-links {
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.social-links .icon {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.soclinks{
+    color: black;
+}
+.soclinks a:hover {
+    color: #0072b1;
+}
+/* css selectore are used to find or select the stable elements you want to style
+1. simple selectors
+2, psuedo class selectors
+3. based on specific relationship between them communative selector
+4. pseudo element selectors 
+5. select elements based on atributes */

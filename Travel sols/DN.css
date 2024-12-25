@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#one {
+  background: url("varanasi.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#two {
+  background: url("Penguins.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#the {
+  background-color: rgba(71, 74, 75, 0.651);
+}
+h1 {
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: BatmanForeverAlternate;
+  font-size: 38px;
+}
+#p {
+  font-family: GOOD PEOPLE;
+  color: white;
+  text-transform: capitalize;
+  font-size: 43px;
+  font-weight: 300;
+}
+td {
+  text-transform: none;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  text-transform: capitalize;
+  font-size: 28px;
+  font-weight: 400;
+}
+h4 {
+  font-family: jokerman;
+  color: rgb(248, 89, 89);
+  font-weight: 500;
+  font-size: 38px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.q {
+  background-color: rgba(230, 224, 224, 0.4);
+  border: solid 2px rgba(230, 224, 224, 0.4);
+}
+.w {
+  background-color: rgba(145, 213, 218, 0.411);
+}
+#q {
+  font-weight: 500;
+  font-size: 32px;
+  color: rgb(59 232 255);
+}
+#taj {
+  background-image: url("taj.jpg");
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+}
+#ayo {
+  background-image: url("ayo.jpg");
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+}
+#varanasi {
+  background-image: url("varanasi.jpg");
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+}
+#prayag {
+  background-image: url("prayag.jpg");
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+}
+#vrindavan {
+  background-image: url("vrindavan.png");
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+}
+.items {
+  text-transform: capitalize;
+  color: white;
+  font-size: 29px;
+  float: left;
+  list-style-type: none;
+  font-family: comfortaa;
+  line-height: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+li a:hover {
+  color: rgba(35, 222, 247, 0.938);
+  text-decoration: underline;
+}
+#home {
+  color: rgba(35, 222, 247, 0.938);
+  text-decoration: underline;
+}
+
+#search {
+  color: rgba(35, 222, 247, 0.938);
+  border: solid 2px rgba(35, 222, 247, 0.938);
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  outline: none;
+  height: 35px;
+  width: 175px;
+  line-height: 40px;
+  background-color: transparent;
+}
+::placeholder {
+  color: rgba(35, 222, 247, 0.938);
+  padding: 0 8px;
+  font-size: 16px;
+  font-family: cursive;
+  line-height: 40px;
+}
+.div {
+  color: rgb(232, 247, 23);
+  height: 70px;
+  width: 120px;
+  display: inline-block;
+  font-size: 34px;
+  font-family: AngryBirds;
+  color: rgb(249, 252, 69);
+}
+#a {
+  animation-name: x;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  position: relative;
+  border-radius: 20%;
+}
+#b {
+  animation-name: nikhil;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes nikhil {
+  0% {
+    right: 0%;
+  }
+  50% {
+    right: 26%;
+  }
+  100% {
+    color: rgb(249, 250, 252);
+    right: 3%;
+  }
+}
+@keyframes x {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 26%;
+  }
+  100% {
+    color: rgb(255, 255, 255);
+    left: 3%;
+  }
+}
+#dna {
+  background-color: rgb(25, 112, 241);
+}
+#sp {
+  background-color: rgb(250, 133, 23);
+}
+#p {
+  animation-name: a;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+@keyframes a {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    color: #00ffd0;
+  }
+  50% {
+    color: #00ff95;
+  }
+  75% {
+    color: #51ff00;
+  }
+  95% {
+    color: #ff9900;
+  }
+}
+
